@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600;700&display=swap');
+
+/*ZERANDO CSS*/
+
 *{
     box-sizing: border-box;
 }
@@ -6,7 +10,138 @@ body{
     margin: 0;  
 }
 
+/*NAV-MENU*/
+
 .navBar{
+    display: flex;
+    flex-flow: row wrap;
     height: 100px;
-    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-logo{
+    flex:20%;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.name-logo h1{
+    font-family: 'Quicksand', sans-serif;
+    color:#180F4A;
+    font-size: 25px
+}
+
+.header-menu{
+    flex:70%;
+    text-align: right;
+    padding: 20px;
+}
+
+.header-menu a{
+    color:#180F4A;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px 16px;
+}
+
+.header-menu a:hover{
+    color: #FF2978;
+    border-top: 5px solid #180F4A;
+}
+
+#contact-button {
+    background: #180F4A;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#contact-button:hover{
+    border: none;
+    background: #FF2978;
+}
+
+/*HEADER-CONTENT*/
+
+.header-content{
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.headline{
+    flex: 40%;
+    margin-left: 10%;
+}
+
+.img-headline{
+    flex: 40%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.headline h2{
+    color: #180F4A;
+    font-size: 65px;
+    letter-spacing: 5px;
+    padding: 0;
+    margin: 0;
+}
+
+.headline p{
+    color:#180F4A;
+    text-align: left;
+}
+
+.btn-contact{
+    display: inline-block;
+    background: #FF2978;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-contact:hover{
+    border: none;
+    background: #180F4A;
+}
+
+.section-content{
+    margin-top: 100px;
+    border: 1px solid black;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 500px;
+    text-align: center;
+    padding: 5%;
+    width: 90%;
+}
+
+.section-content h2{
+    width: 100%;
+    font-size: 35px;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    color: #180F4A;
+}
+
+.service-content{
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card{
+    display:inline-block;
+    width: 30%;
+    padding: 20px;
+    margin:1%;
+    border: 1px solid #FF2978;
 }
