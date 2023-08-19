@@ -144,4 +144,6 @@ body{
     padding: 20px;
     margin:1%;
     border: 1px solid #FF2978;
+    border-radius: 10px;
+    cursor: pointer;
 }
